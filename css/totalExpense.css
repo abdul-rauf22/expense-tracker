@@ -1,0 +1,15 @@
+/* total expense card */
+.total-expense-card {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 15px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.total-expense-para {
+    color: #65758C;
+}

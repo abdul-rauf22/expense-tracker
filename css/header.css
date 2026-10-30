@@ -1,0 +1,38 @@
+/* header file */
+
+header {
+    width: 80%;
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    /* border-radius: 12px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content>h1 {
+    color: #0F172A;
+}
+
+.header-content>p {
+    color: #65758C;
+    margin-top: 8px;
+}
+
+.add-expense-btn {
+    margin-left: auto;
+    width: 110px;
+    background-color: #fff;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+    border-radius: 12px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.add-expense-btn:hover {
+    background-color: #2563eb;
+    color: #fff;
+    font-weight: bolder;
+}

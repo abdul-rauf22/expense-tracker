@@ -1,0 +1,54 @@
+/* table expense data */
+.expense-data-table {
+    width: 80%;
+    margin: 10px auto 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.expense-table {
+    width: 100%;
+}
+
+.expense-table th,
+.expense-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.expense-table-th {
+    background-color: #f1f5f9;
+    /* padding: 8px; */
+    height: 40px;
+}
+
+.expense-table-tb {
+    width: 100%;
+}
+
+.edit-btn {
+    padding: 6px 10px;
+    background-color: #fff;
+    border: none;
+    color: #2563eb;
+    cursor: pointer;
+}
+
+.delete-btn {
+    padding: 6px 10px;
+    background-color: #fff;
+    border: none;
+    color: #dc2626;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #eff6ff;
+}
+
+.delete-btn:hover {
+    background-color: #fef2f2;
+}

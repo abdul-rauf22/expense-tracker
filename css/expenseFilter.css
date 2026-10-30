@@ -1,0 +1,37 @@
+
+/* expense category  */
+.category-filter-card {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.category-filter-btn-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.category-filter-p {
+    color: #65758C;
+    font-size: x-small;
+
+}
+
+.category-filter-btn {
+    /* width: 80; */
+    background-color: #dce1ebaa;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.category-filter-btn:hover {
+    background-color: #dce1eb;
+}
